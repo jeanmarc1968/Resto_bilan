@@ -1,38 +1,16 @@
 @charset "utf-8";
 
 body {
-    background: pink;
+    background: bisque;
     margin: 0 auto;
-    text-align: center;
-    
+    color: black;
 }
-
 #conteneur {
     margin: 0 auto;
-    width: 1000px;
+    width: 80%;
+    background: linear-gradient white;
 }
-
-header {
-    margin: 0 auto;
+ul li { /* centrer la liste */
+    display: inline-block;
     text-align: center;
-    font-size: 1.8em;
-}
-h1, h2 {
-    font-size: 0.8em;
-}
-
-img {
-    float: left;
-}
-
-.menu {
-    float: right;
-}
-
-.resto_01 {
-    float: right;
-}
-footer {
-    height: 500px;
-    border: 2px solid white;
 }
