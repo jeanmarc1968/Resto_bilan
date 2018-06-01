@@ -6,11 +6,99 @@ body {
     color: black;
 }
 #conteneur {
+    background: white;
     margin: 0 auto;
-    width: 80%;
+    width: 1100px;
     background: linear-gradient white;
 }
 ul li { /* centrer la liste */
     display: inline-block;
     text-align: center;
 }
+header {
+    background: white;
+    text-align: center;    
+}
+#nav_droite1 { 
+    float: right;
+    padding-right: 200px;
+    padding-top: 100px;
+ }
+ #nav_gauche {
+     background: url('../img/plate.jpg') no-repeat; 
+     float: left;
+     width: 500px;
+     height: 500px;
+ }
+/* header p {
+    margin-left: 200px;
+} */
+.texte1 { /* texte 1ere section */
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.image1 { /* image 1re section */
+    background: url('../img/resto_01.jpg');
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+.texte2 { /* texte 2eme section */
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+.image2 { /* 2eme photo dans 2eme section */
+    background: url('../img/resto_02.jpg');
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.texte3 { /* texte 3eme section */
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.image3 { /* 3eme photo dans 3eme section */
+    background: url('../img/resto_03.jpg');
+    width: 500px;
+    height: 500px;
+    float: right; 
+}
+.texte4 { /* texte 4eme section */
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+.image4 { /* 4eme photo dans 4eme section */
+    background: url('../img/resto_04.jpg');
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.footer {  /*  insertion plan dans le pied de page */
+    background: url('../img/plan.png') no-repeat center;
+    height: 200px
+}
+.footer1 {
+    width: 600px;
+    text-align: center;
+    margin-left: 250px;
+}
+.footer p {
+    padding-top: 80px;
+    padding-left: 500px;
+}
+.clear {
+    clear: both;
+}
+
+.note {
+    color: white;
+    background: black;
+    width: 150px;
+}
+
